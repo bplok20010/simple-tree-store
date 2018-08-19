@@ -37,7 +37,7 @@
 ## examples
 
 ```
-const TreeStore = require('tree-store');
+const TreeStore = require('simple-tree-store');
 
 const data = [
     {
