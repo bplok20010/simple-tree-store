@@ -1,0 +1,28 @@
+{
+  "name": "tree-store",
+  "version": "1.0.0",
+  "description": "生成树结构",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start",
+    "test": "node test/TreeStore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bplok20010/tree-store.git"
+  },
+  "author": "nobo.zhou@foxmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bplok20010/tree-store/issues"
+  },
+  "files": [
+    "*.md",
+    "*.js",
+    "lib"
+  ],
+  "homepage": "https://github.com/bplok20010/tree-store#readme",
+  "devDependencies": {
+    "transform-es": "^1.1.0"
+  }
+}
