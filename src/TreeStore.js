@@ -80,9 +80,10 @@ export default class TreeStore {
     getAllChildren(id) {
         const childs = this.getChildren(id);
 
-        const results = [...childs];
+        const results = [];
 
         childs.forEach(id => {
+            results.push(id);
             results.push(...this.getAllChildren(id));
         });
 
