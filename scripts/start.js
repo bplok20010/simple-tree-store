@@ -2,5 +2,6 @@ const transformES = require('transform-es');
 
 transformES('src', 'lib', {
     watch: true,
-    target: 'web'
+    target: 'web',
+    babelRuntimeHelpers: true,
 });
