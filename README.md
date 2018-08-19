@@ -1,6 +1,10 @@
 # tree-store
 生成树结构
 
+## install
+
+`npm install --save simple-tree-store`
+
 ## options 
 
 ```
