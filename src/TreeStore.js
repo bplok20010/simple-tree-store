@@ -110,6 +110,16 @@ export default class TreeStore {
     getLevel(id) {
         return this._levels[id] || 1;
     }
+    getMaxLevel() {
+        const levels = this._levels;
+        let level = 1;
+
+        Object.keys(levels).forEach(id => {
+            level = Math.max(level, levels[id]);
+        });
+
+        return level;
+    }
     getLevelChildren(level) {
         return this._NodeListIds.filter(id => this._levels[id] === level);
     }

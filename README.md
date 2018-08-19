@@ -32,6 +32,9 @@
 
 `getLevel(id)` 获取节点所在层级
 
+`getMaxLevel(id)` 获取最大层级数
+
+
 `getLevelChildren(level)` 获取该层级下所有节点
 
 ## examples

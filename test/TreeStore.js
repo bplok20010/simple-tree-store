@@ -42,4 +42,6 @@ console.log(store.getPids(10));
 
 console.log(store.getLevel(10));
 
+console.log(store.getMaxLevel());
+
 console.log(store.getLevelChildren(3));
