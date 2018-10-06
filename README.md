@@ -12,6 +12,7 @@
     rootId: null,
     idField: 'id',
     childrenField: 'children',
+    processNode: (node) => node,
 }
 ```
 

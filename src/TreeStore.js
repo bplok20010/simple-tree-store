@@ -8,6 +8,7 @@ export default class TreeStore {
             rootId: null,
             idField: 'id',
             childrenField: 'children',
+            processNode: null,
         }, options);
 
         this._NodeList = data;
@@ -25,13 +26,16 @@ export default class TreeStore {
         const NodeListMap = this._NodeListMap;
         const pids = this._pids;
         const levels = this._levels;
-        const { idField, childrenField, rootId } = this.options;
+        const { idField, childrenField, rootId, processNode } = this.options;
 
         const normalize = node => {
             if (node[idField] == null) node[idField] = randomId();
         };
 
         const walkNodes = (node, pid = rootId, level = 1) => {
+            if (processNode) {
+                node = processNode(node);
+            }
             normalize(node);
             const id = node[idField];
             const children = node[childrenField];
