@@ -1,6 +1,6 @@
 {
     "name": "simple-tree-store",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "生成树结构",
     "main": "index.js",
     "scripts": {
@@ -14,19 +14,19 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bplok20010/tree-store.git"
+        "url": "git+https://github.com/bplok20010/simple-tree-store.git"
     },
     "author": "nobo.zhou@foxmail.com",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/bplok20010/tree-store/issues"
+        "url": "https://github.com/bplok20010/simple-tree-store/issues"
     },
     "files": [
         "*.md",
         "*.js",
         "lib"
     ],
-    "homepage": "https://github.com/bplok20010/tree-store#readme",
+    "homepage": "https://github.com/bplok20010/simple-tree-store#readme",
     "devDependencies": {
         "transform-es": "^1.3.1"
     },
